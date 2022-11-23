@@ -9,13 +9,82 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html{
+    font-size: 10px;
+    padding: 0;
+}
 
-
-nav {
+.navigation {
     background-color: #540B51;
+    margin: 0;
+    padding: 2.5em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.nav-div{
+    
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+}   
+
+ul{
     display: flex;
     flex-direction: row;
 }
+.nav-li {
+    list-style: none;
+    padding: 1em;
+}
+
+.nav-li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.slack-logo{
+   width: 10%;
+   height: 30%;
+   margin: 1em;
+   position: relative;
+   top: 1em;
+}
+.click-button{
+    background-color: white;
+    text-align: center;
+    margin: 0.5em;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0.6em;
+}
+.click-button a{
+    color: #540B51;
+    text-transform: uppercase;
+    
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-button ul{
+    padding: 0;
+
+
+}
+.search-icon{
+    background-color: #540B51;
+    margin: 0;
+    border: none;
+}
+
+
+
+
 
 header {
     background-color: #540B51;
@@ -28,125 +97,317 @@ main {
     background-color: #F3EAE2;
 }
 h1 {
-    font-size: 40px;
-    text-align: center;
+    font-size: 50px;
+    text-align: left;
 }
-li {
-    list-style: none;
-}
-li p {
-    text-align: center;
-}
+
 .subtitle {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    margin-top: 3em;
 }
 .main-buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    position: relative;
+    right:2em;
 }
 .sign-up-button,
 .google-button {
-    width: 90%;
+    width: 90%;   
     margin: 5px 5%;
 }
 .sign-up-button {
     height: 40px;
 }
 .google-button {
-    height: 44px;
+    height: 40px;
+    padding:0;
+    
+    
 }
 .google-button-logo {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-.google-image {
-    height: 40px;
-}
-.trusted-companies-intro {
-    width: 80%;
-    text-align: center;
-    font-size: 20px;
-}
-.trusted-companies-images {
-    display: flex;
     align-content: center;
 }
-.logo-image {
-    width: 80px;
+.google-image {
+    height:20px;
+    background-color: white;
+    margin-top: 0.7em;
+    position: relative;
+    left: 7%;
+    }
+.strange{
+    padding-top: 0.5em;
 }
-.cool-pics {
-    width: 100%;
+
+.google-sign{
+    color: #ECB12F;
+}
+.hero-product {
+    width: 50%;
+    margin: 5em 6em;
+    position: relative;
+    left: 5em;
+    top: 5em;
+    }
+.header-column{
     display: flex;
     flex-direction: column;
+    padding:0 10em 5em; 
+}
+
+
+
+
+
+
+.trusted-companies-intro {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin:0;
+    padding:2em 1em;
+}
+.trusted-companies{
+    padding: 0 10em 7em;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.logo-image {
+    width: 7%;
+    margin: 1em 1em;
+}
+.logo-image2{
+    width: 5%;
+}
+.companies-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle-pic{
+    width: 4%;
+}
+.uber-pic {
+    width: 5%;
+}
+.ny-pic {   
+    width: 15%;
+}
+
+h2{
+    font-size: 3em;
+    text-align: left;
+}
+.text-right{
+    width: 55%;
+    text-align: left;
+    position: relative;
+    right:10em;
+    bottom: 2em;
+}
+.text-right a{
+    text-decoration: none;
+    color:#2E71A6 ;
+
+}
+.cool-pics {    
+    display: flex;
+    flex-direction: row;
+    padding:0 3em 3em 0 ;
 }
 .support-image {
-    width: 50%;
+    width: 35%;
+    margin-right: 0;
+   
 }
-.offer-title {
-    text-align: center;
+.support-image2{
+    width: 35%;
+    margin-right: 0;
+    position: relative;
+    left: 52em;
+    bottom: 2em;
 }
 .offer-title-explain{
-    text-align: center;
+    text-align: left;
+    font-size: 1.5em;
 }
+.element2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding:3em 3em 3em 0 ;
+    position: relative;
+    left: 20em;
+}
+
+.element3 {    
+    display: flex;
+    flex-direction: row;
+    padding:0 3em 3em 0 ;
+}
+h3{
+    font-size: 2.5em;
+    text-align: center;
+    color: #540B51;
+}
+
 .data {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.chara{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 .slack-buttons {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+   
 }
-.slack-button-meet,
+.slack-button-meet{
+    background-color:#540B51;
+    color: white;
+    margin: 0 1em;
+}
 .slack-button-sales {
     height: 40px;
 }
+.num{
+    color: #540B51;
+    font-size: 4em;
+    text-align: center;
+    
+}
+.percentages li{
+    list-style: none;
+   
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 25%;
+    margin: 1em 3em;
+}
+.elem{
+    text-align: left;
 
-#hero-product {
-width: 100%;
 }
-.navigation {
-   display: flex; 
+.end-part{
+    background-color: #540B51;
+    height: 30em;
+    border-radius:  0 0 12% 12% ;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
 }
-.slack-logo {
-    width: 200px;
+
+.end-part h3{
+    font-size: 2.5em;
+    color: white;
+    padding: 2em 3em 1em;
+    margin-bottom: 0;
 }
+.end-part button{
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+}
+.end-part div{
+    display: flex;
+    flex-direction:row ;
+
+}
+.end-button{
+  padding: 0.5em;
+  margin-right: 1em;
+}
+.end-button1{
+    background-color: #540B51; 
+    color: white;
+    border: 1em solid white;
+    margin:0;
+    padding: 0;
+}
+    
+
 
 @media (min-width: 768px) {
-    header {
+   .nav-li{
+        display: none;       
+    }
+    .header-column{
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .sign-up-button,
+.google-button {
+        width: 100%;
+    }
+    .hero-product{
+        width: 80%;
+        position: relative;
+        right: 20em;      
+        bottom: 20em;
+        margin: 0 0 8em 0;
+    }
+    .cool-pics div{
+     padding: 0;
+     margin: 0;
+     width: 80%;
+    }
+    .cool-pics{
+        display: flex;
+        flex-direction: column;
+    }
+    .support-image,.support-image2{
+        width: 100%;
+    }
+    .text-right{
+        margin-left: 3em;
+    }
+    .element2 div{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+       }
+
+    .element2{
+        display: flex;
+        flex-direction: column;
+    }
+    .support-image2{
+        position: relative;
+        left: 0;
     }
     .percentages {
         display: flex;
         flex-direction: row;
     }
-    .companies-images {
+    .element3{
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        flex-direction: column;
     }
-    .logo-image {
-        width: 12%;
-        margin: 0 10px;
-    }
-    .uber-pic {
-        height: 80%;
-    }
-    .ny-pic {
-        flex-grow: 3;
+    .companies-images{
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .slack-buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-}
+    
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     header {
@@ -170,9 +431,7 @@ width: 100%;
     .uber-pic {
         height: 80%;
     }
-    .ny-pic {
-        flex-grow: 3;
-    }
+   
 
     .slack-buttons {
         display: flex;
